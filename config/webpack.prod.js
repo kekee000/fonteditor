@@ -14,7 +14,7 @@ module.exports = {
         editor: './src/fonteditor/editor'
     },
     output: {
-        path: path.resolve(__dirname, '../dist'),
+        path: path.resolve(__dirname, '../output/fonteditor'),
         filename: 'js/[name]-[chunkhash:8].js'
     },
     devtool: false,

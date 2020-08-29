@@ -21,4 +21,4 @@ demo/sync/*.svg
 
 dep/fonteditor-core
 
-dist
+output/
