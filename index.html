@@ -156,9 +156,9 @@
 
     <script>
     var _hmt = _hmt || [];
-    /baidu.com$/.test(location.hostname) && (function() {
+    (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?65ce30cdeda584c416e39648915689f7";
+      hm.src = "https://hm.baidu.com/hm.js?b56ced3124e27bcf694c00ec1ea5b002";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();

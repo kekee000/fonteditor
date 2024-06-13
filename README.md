@@ -1,4 +1,4 @@
-Fonteditor Online Font Editor
+Online Font Editor
 ==========
 
 Use `Fonteditor` to edit, transform, preview fonts.
