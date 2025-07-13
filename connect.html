@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <title>fonteditor connect</title>
     <script>
-    var _hmt = _hmt || [];
-    /baidu.com$/.test(location.hostname) && (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?65ce30cdeda584c416e39648915689f7";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b56ced3124e27bcf694c00ec1ea5b002";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
     </script>
 </head>
 <body>
-<script type="text/javascript" src="js/connect-8d7d7cb3.js"></script></body>
+<script>
+  var lang = (window.navigator.language || 'zh-cn').toLowerCase();
+  var baseUrl = window.location.href.slice(0, window.location.href.lastIndexOf('/'));
+  var projectUrl = lang === 'zh-cn' ? `${baseUrl}/index.html` : `${baseUrl}/index-en.html`;
+  location.replace(projectUrl);
+</script>
 </html>
